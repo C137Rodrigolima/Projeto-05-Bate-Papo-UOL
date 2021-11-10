@@ -1,0 +1,16 @@
+* {
+    font-family: Robotto;
+}
+
+header, footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 22px;
+    position: fixed;
+}
+
+footer{
+    bottom: 0px;
+}
