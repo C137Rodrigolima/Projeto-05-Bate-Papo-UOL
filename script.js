@@ -68,7 +68,6 @@ function EnviarAOclick(botão) {
     PromessaMensagem.catch(TratarErroMensagem);
 
     function TratarErroMensagem(Erro) {
-        alert("Entre na sala para enviar mensagens!!!");
         window.location.reload(true);
     }
 }
